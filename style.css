@@ -1,8 +1,132 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    max-width: 1200px;
 }
 
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 25px;
 }
+
+
+.menu-bar {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.menu-bar li {
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    border: 2px solid rgb(101, 128, 101);
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(102, 148, 102);
+    color: white;
+}
+
+.menu-bar li:hover {
+    font-weight: 400;
+    font-size: 30px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .title-color {
+        color:rgb(102, 148, 102);
+        font-style: italic;
+    }
+
+    .button {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .button-style {
+         font-size: 20px;
+        text-decoration: none;
+        border: 2px solid rgb(137, 182, 182);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background-image: linear-gradient(aquamarine, green);
+      
+    }
+
+    .flexible-area {
+        display: flex;
+        margin-top: 50px;
+           }
+
+    .food-title-part {
+        padding-left: 25px;
+        margin-top: 100px;
+    }
+
+    .half-part {
+        width: 50%;
+    }
+
+    .half-part img {
+        width: 80%;
+    }
+
+    .background-img {
+        background-image: url(./images/bg-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 100px;
+    }
+
+    .our-recipies {
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+
+    .recipies-items {
+        display: flex;
+        width: 100%;
+    }
+    
+    .pot-bruns-img img {
+        width: 90%;
+    }
+
+    .items-detail {
+        margin-bottom: 50px;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+
+    .media-link {
+        display: flex;
+        padding: 30px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 4px gray;
+        margin-bottom: 30px;
+
+    }
+
+   .footer {
+       color: white;
+       height: 160px;
+       background-color: black;
+       text-align: center;
+       padding: 50px;
+       border: 2px solid black;
+       border-radius: 10px;
+       box-shadow: 2px 2px 2px 4px black;
+       margin-bottom: 30px;
+   }
