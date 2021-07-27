@@ -23,16 +23,16 @@ body {
 
 .menu-bar li a {
     text-decoration: none;
-    border: 2px solid rgb(101, 128, 101);
+    border: 2px solid gold;
     padding: 7px;
     border-radius: 10px;
-    background-color: rgb(102, 148, 102);
+    background-color: gold;
     color: white;
 }
 
 .menu-bar li:hover {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     }
 
     h1 {
@@ -78,6 +78,7 @@ body {
 
     .half-part img {
         width: 80%;
+        padding-left: 100px;
     }
 
     .background-img {
