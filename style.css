@@ -28,11 +28,14 @@ body {
     border-radius: 10px;
     background-color: gold;
     color: white;
+    
 }
 
-.menu-bar li:hover {
+.menu-bar li a:hover {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
+    transition: 3s;
+    
     }
 
     h1 {
